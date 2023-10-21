@@ -1,5 +1,3 @@
-
-
 # Library Management System Project
 
 
@@ -7,12 +5,12 @@ This Java application is a simple CRUD (Create, Read, Update, Delete) system for
 It uses Java JDBC to interact with an SQL database(MYSQL).
  Below are the instructions to set up and run the application.
 
- # Prerequisites
+#Prerequisites
 Java Development Kit (JDK) installed on your system.
 An SQL database server (e.g MySQL) up and running.
 JDBC driver for your database installed and included in the project.
 
-# note
+#note
 Configure your database connection in the LibraryDB.java file. 
 GO to LibraryDB class and 
 Modify the connection URL, username, and password according to your database setup.
