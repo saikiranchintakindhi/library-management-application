@@ -32,12 +32,11 @@ CREATE DATABASE library;
 USE library;
 
 CREATE TABLE books (
-  id INT AUTO_INCREMENT PRIMARY KEY,
   title VARCHAR(100) NOT NULL,
   author VARCHAR(100) NOT NULL,
-  isbn VARCHAR(13) NOT NULL UNIQUE,
+  isbn VARCHAR(13) PRIMARY KEY,
   publication_year INT NOT NULL,
-  genre VARCHAR(100)
+  genre VARCHAR(100) 
 );
 
 ## Setup
