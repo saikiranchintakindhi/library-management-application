@@ -54,7 +54,7 @@ public class MainClass
                     }
                     else
                     {
-                    	System.out.println("please Enter valid published year in yyyy format)");
+                    	System.out.println("please Enter valid published year in yyyy format (year must be between 1000 to 2024)");
                     break;
                     }
 
@@ -101,7 +101,7 @@ public class MainClass
                     }
                     else
                     {
-                    	System.out.println("please Enter valid published year in yyyy format)");
+                    	System.out.println("please Enter valid published year in yyyy format(year must be between 1000 to 2024)");
                         break;
                     }
 
